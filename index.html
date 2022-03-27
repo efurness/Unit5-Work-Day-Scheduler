@@ -1,0 +1,97 @@
+<!DOCTYPE html>
+<html lang="en">
+<!-- the head tag has relevant links that will be used for the website structure and styles -->
+<head>
+  <meta charset="UTF-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+  <meta http-equiv="X-UA-Compatible" content="ie=edge" />
+  <link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/bootstrap/4.3.1/css/bootstrap.min.css" />
+  <link rel="stylesheet" href="https://use.fontawesome.com/releases/v5.8.1/css/all.css"
+    integrity="sha384-50oBUHEmvpQ+1lW4y57PTFmhCaXp0ML5d60M1M7uH2+nqUivzIebhndOJK28anvf" crossorigin="anonymous" />
+  <link href="https://fonts.googleapis.com/css?family=Open+Sans&display=swap" rel="stylesheet" />
+  <link rel="stylesheet" href="style.css" />
+  <title>Work Day Scheduler</title>
+</head>
+
+<body>
+
+<!-- The jumbotron contains the h1 class and the currentDay time clock by moment -->
+  <header class="jumbotron">
+    <h1 class="display-3">Work Day Scheduler</h1>
+    <p id="currentDay" class="lead">00:00:00</p>
+    <br>
+  </header>
+
+  <section class="text-center-notification" id="notify"></section>
+  
+  <!-- the container holds Calender time blocks that are tied to the avascript and Jquery -->
+  <div class="container">
+    <div id="hour9" class="row time-block past">
+    <div class="col-md-1 hour">9:00am</div>
+    <textarea class="col-md-10 description">
+    </textarea>
+    <button class="btn saveBtn col-md-1"><i class="fas fa-save"></i></button>
+  </div>
+  <div id="hour10" class="row time-block past">
+    <div class="col-md-1 hour">10:00am</div>
+    <textarea class="col-md-10 description">
+  </textarea>
+    <button class="btn saveBtn col-md-1"><i class="fas fa-save"></i></button>
+  </div>
+  <div id="hour11" class="row time-block past">
+    <div class="col-md-1 hour">11:00am</div>
+    <textarea class="col-md-10 description">
+  </textarea>
+    <button class="btn saveBtn col-md-1"><i class="fas fa-save"></i></button>
+  </div>
+  <div id="hour12" class="row time-block past">
+    <div class="col-md-1 hour">12:00pm</div>
+    <textarea class="col-md-10 description">
+  </textarea>
+    <button class="btn saveBtn col-md-1"><i class="fas fa-save"></i></button>
+  </div>
+  <div id="hour13" class="row time-block present past">
+    <div class="col-md-1 hour">1:00pm</div>
+    <textarea class="col-md-10 description">
+  </textarea>
+    <button class="btn saveBtn col-md-1"><i class="fas fa-save"></i></button>
+  </div>
+  <div id="hour14" class="row time-block future present">
+    <div class="col-md-1 hour">2:00pm</div>
+    <textarea class="col-md-10 description">
+  </textarea>
+    <button class="btn saveBtn col-md-1"><i class="fas fa-save"></i></button>
+  </div>
+  <div id="hour15" class="row time-block future">
+    <div class="col-md-1 hour">3:00pm</div>
+    <textarea class="col-md-10 description">
+  </textarea>
+    <button class="btn saveBtn col-md-1"><i class="fas fa-save"></i></button>
+  </div>
+  <div id="hour16" class="row time-block future">
+    <div class="col-md-1 hour">4:00pm</div>
+    <textarea class="col-md-10 description">
+  </textarea>
+    <button class="btn saveBtn col-md-1"><i class="fas fa-save"></i></button>
+  </div>
+  <div id="hour16" class="row time-block future">
+    <div class="col-md-1 hour">4:00pm</div>
+    <textarea class="col-md-10 description">
+  </textarea>
+    <button class="btn saveBtn col-md-1"><i class="fas fa-save"></i></button>
+  </div>
+  <div id="hour17" class="row time-block future">
+    <div class="col-md-1 hour">5:00pm</div>
+    <textarea class="col-md-10 description">
+  </textarea>
+    <button class="btn saveBtn col-md-1"><i class="fas fa-save"></i></button>
+  </div>
+  </div>
+  <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.5.1/jquery.min.js"></script>
+  <script src="https://cdnjs.cloudflare.com/ajax/libs/jquery/3.2.1/jquery.min.js"></script>
+  <script src="https://cdnjs.cloudflare.com/ajax/libs/moment.js/2.27.0/moment.min.js"></script>
+  <script src="script.js"></script> == $0
+
+</body>
+
+</html>
