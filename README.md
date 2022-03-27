@@ -2,7 +2,7 @@
 
 ### Description 
 
-This project involved using a lot of third-party API's like Jquery, Bootstrap, and Font Awesome to construct the Work Day Scheduler.  The time clock comes from JQuery moment.js site to give the user the current time for the Scheduler.  We used the property time block to establish present, past, and future for the application.
+This project involved using a lot of third-party API's like Jquery, Bootstrap, and Font Awesome to construct the Work Day Scheduler.  The project involved making a dynamic and responsive site with Javascript and Jquery as well with a css stylesheet. The time clock comes from JQuery moment.js site to give the user the current time for the Scheduler.  Time blocks were used to show what tasks are - present, past, and future in the application by using colors for each.  The save button gives the ability to save these items.  The saved events persist in local storage.  
 
 
 ## Review
@@ -13,7 +13,7 @@ https://efurness.github.io/Unit5-Work-Day-Scheduler/
 [GitHub Repository] 
 https://github.com/efurness/Unit5-Work-Day-Scheduler.git
 
-[Project screenshot]() 
+[Project screenshot](workday_sched.png) 
 
 ## Contact
 

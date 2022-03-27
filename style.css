@@ -3,10 +3,9 @@ body {
   font-size: 16px;
   line-height: 1;
 }
-
+ /* textarea is set to transparent to allow colors for the past, present and future classes to show through */
 textarea {
   background: transparent;
-  /* background-color: #3c6ae9; */
   border: none;
   resize: none;
   color: white;
@@ -27,7 +26,6 @@ textarea {
   justify-content: center;
   padding: 20px;
   
-
 }
 .description {
   white-space: pre-wrap;
@@ -73,13 +71,8 @@ textarea {
   color: white;
 }
 
-
 .saveBtn i:hover {
   font-size: 20px;
   transition: all 0.3s ease-in-out;
 }
 
-@media screen and (max-width: 992px) {
-  .card {
-    width: 50%;
-  }
