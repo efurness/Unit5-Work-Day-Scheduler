@@ -17,7 +17,7 @@ https://github.com/efurness/Unit5-Work-Day-Scheduler.git
 
 ## Contact
 
-Ellen Furness - [Ellen.Furness@du.edu]
+Ellen F.
 
 ## Acknowledgments
 
